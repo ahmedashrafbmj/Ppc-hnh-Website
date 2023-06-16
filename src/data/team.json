@@ -1,45 +1,45 @@
 [
     {
         "id": 1,
-        "thumb": "./images/team/1.png",
-        "name": "Cristopher Williams",
-        "designation": "Head of Idea"
+        "thumb": "./images/team/1.jpg",
+        "name": "Bright Consultaion",
+        "designation": "Website"
     },
     {
         "id": 2,
-        "thumb": "./images/team/2.png",
-        "name": "Julia Rodrigaze",
-        "designation": "Head of Design"
+        "thumb": "./images/team/2.jpg",
+        "name": "Aurcade",
+        "designation": "Website"
     },
     {
         "id": 3,
-        "thumb": "./images/team/3.png",
-        "name": "Rebeca Smith",
-        "designation": "Head of HR"
+        "thumb": "./images/team/3.jpg",
+        "name": "Confirmation",
+        "designation": "Admin Panel"
     },
     {
         "id": 4,
-        "thumb": "./images/team/4.png",
-        "name": "Ricardo Powel",
-        "designation": "Head of Development"
+        "thumb": "./images/team/4.jpg",
+        "name": "CTC",
+        "designation": "Website and Admin Panel"
     },
     {
         "id": 5,
-        "thumb": "./images/team/6.png",
-        "name": "Martin Crow",
-        "designation": "Head of Account"
+        "thumb": "./images/team/5.jpg",
+        "name": "Do Deliver",
+        "designation": "Website and Admin Panel"
     },
     {
         "id": 6,
-        "thumb": "./images/team/7.png",
-        "name": "Shane Watson",
-        "designation": "Head of Business"
+        "thumb": "./images/team/7.jpg",
+        "name": "Drive Mentor",
+        "designation": "Website and Admin Panel"
     },
     {
         "id": 7,
         "thumb": "./images/team/8.png",
-        "name": "Ethan Williams",
-        "designation": "Head of Strategy"
+        "name": "Drive Mentor",
+        "designation": "Website and Admin Panel"
     },
     {
         "id": 8,

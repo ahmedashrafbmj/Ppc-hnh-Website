@@ -41,6 +41,40 @@ const ContactForm = () => {
                     />
                     {errors.email && <p>{errors.email.message}</p>}
                 </div>
+                <div className="col-12 col-sm-6 mb-7">
+                    <input
+                        type="text"
+                        className="form-control"
+                        id="email"
+                        name="email"
+                        placeholder="Your Phone Number*"
+                        ref={register({
+                            required: "Phone is required",
+                            pattern: {
+                                value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
+                                message: "invalid email address",
+                            },
+                        })}
+                    />
+                    {errors.email && <p>{errors.email.message}</p>}
+                </div>
+                <div className="col-12 col-sm-6 mb-7">
+                    <input
+                        type="text"
+                        className="form-control"
+                        id="email"
+                        name="email"
+                        placeholder="Your Intrest In*"
+                        ref={register({
+                            required: "Intrest  is required",
+                            pattern: {
+                                value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
+                                message: "invalid email address",
+                            },
+                        })}
+                    />
+                    {errors.email && <p>{errors.email.message}</p>}
+                </div>
 
                 <div className="col-12 mb-9">
                     <textarea

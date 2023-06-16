@@ -21,8 +21,7 @@ const Footer = () => {
                                     image={`${process.env.PUBLIC_URL}/images/logo/logo-footer.png`}
                                 />
                                 <p>
-                                    Pleasure rationally encounter consequences
-                                    that extremely painful. Nor again is there
+                                We work with a passion of taking challenges and creating new ones in advertising sector.
                                 </p>
                                 <ul className="footer-social-links">
                                     <li>

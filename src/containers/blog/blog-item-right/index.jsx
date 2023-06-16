@@ -30,7 +30,7 @@ const BlogItemRightContainer = ({ data }) => {
                                 })}
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-4 mb-7  offset-xl-1">
+                    {/* <div className="col-xl-3 col-lg-4 mb-7  offset-xl-1">
                         <div className="widget-wrapper widget-wrapper-nl">
                             <div className="sidebar-widget">
                                 <SidebarTitle title="Search" />
@@ -56,7 +56,7 @@ const BlogItemRightContainer = ({ data }) => {
                                 <SidebarTag data={BlogData} />
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

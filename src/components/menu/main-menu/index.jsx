@@ -19,7 +19,7 @@ const MainMenu = () => {
                         Services
                     </NavLink>
 
-                    <ul className="sub-menu">
+                    {/* <ul className="sub-menu">
                         <li className="sub-menu-item">
                             <NavLink
                                 className="sub-menu-link"
@@ -39,7 +39,7 @@ const MainMenu = () => {
                                 single service
                             </NavLink>
                         </li>
-                    </ul>
+                    </ul> */}
                 </li>
                 <li>
                     <NavLink to="/">Packages</NavLink>
