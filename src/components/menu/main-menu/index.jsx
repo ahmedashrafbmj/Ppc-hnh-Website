@@ -16,7 +16,7 @@ const MainMenu = () => {
                 </li>
                 <li>
                     <NavLink to={process.env.PUBLIC_URL + "/service"}>
-                        Service
+                        Services
                     </NavLink>
 
                     <ul className="sub-menu">

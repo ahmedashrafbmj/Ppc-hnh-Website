@@ -2,6 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import HomeData from "../../../data/home.json";
 import Brand from "../../../components/brand/index";
+import SectionTitle from "../../../components/section-title";
 
 const BrandContainer = () => {
     const swiperOption = {
@@ -39,6 +40,15 @@ const BrandContainer = () => {
         <div className="brand-section section-py">
             <div className="container">
                 <div className="row">
+                <div className="col-xl-6 col-lg-8 mx-auto">
+                        <SectionTitle
+                            classOption="title-section mb-10 pb-10 text-center"
+                            subTitle="Logo Designing"
+                            title="Logos <span class='text-primary'>Designed </span> by us"
+                            excerptClassOption="null"
+                            excerpt="Pleasure rationally encounter consequences that are <br class='d-none d-xl-block' /> painful. Nor again is there anyone who pursues"
+                        />
+                    </div>
                     <div className="col-12">
                         <Swiper className="brand-carousel" {...swiperOption}>
                             {HomeData[1].brand &&
