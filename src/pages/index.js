@@ -25,7 +25,7 @@ const HomePage = () => {
                     <IntroContainer />
                     <BrandContainer />
                     <IconBoxContainer classOption="section-pb" />
-                    <HomeAboutContainer />
+                    {/* <HomeAboutContainer /> */}
                     <ServiceListContainer />
                     <TestimonialContainer />
                     <FunFactContainer classOption="mt-10 mt-lg-0" />
