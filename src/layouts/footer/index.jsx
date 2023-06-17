@@ -78,7 +78,7 @@ const Footer = () => {
                                                 "/service"
                                             }
                                         >
-                                            Pricing Plan
+                                            Services
                                         </Link>
                                     </li>
                                     <li>
@@ -86,47 +86,27 @@ const Footer = () => {
                                             className="footer-link"
                                             to={
                                                 process.env.PUBLIC_URL +
-                                                "/about"
+                                                "/blog-right-sidebar"
                                             }
                                         >
-                                            Conditions
+                                            Portfolio
                                         </Link>
                                     </li>
                                     <li>
                                         <Link
                                             className="footer-link"
                                             to={
-                                                process.env.PUBLIC_URL + "/blog"
+                                                process.env.PUBLIC_URL + "/contact"
                                             }
                                         >
-                                            Blog Post
+                                            Contact 
                                         </Link>
                                     </li>
-                                    <li>
-                                        <Link
-                                            className="footer-link"
-                                            to={
-                                                process.env.PUBLIC_URL + "/team"
-                                            }
-                                        >
-                                            Our Clients
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link
-                                            className="footer-link"
-                                            to={
-                                                process.env.PUBLIC_URL +
-                                                "/contact"
-                                            }
-                                        >
-                                            Contact us
-                                        </Link>
-                                    </li>
+                                
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-2 col-sm-6 mb-7">
+                        {/* <div className="col-lg-2 col-sm-6 mb-7">
                             <div className="footer-widget">
                                 <h4 className="title">Services</h4>
                                 <ul className="footer-menu">
@@ -198,12 +178,13 @@ const Footer = () => {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col-lg-3 col-sm-6 mb-7">
                             <div className="footer-widget">
                                 <h4 className="title">Contact info</h4>
                                 <p>
-                                    245 Southern Street, Apt. 147 New York, USA
+                                1122 Bowie Dr, Lewisville, TX 75077 <br/>
+                                122 Harold Rd, London E13 0SF, United Kingdom
                                 </p>
                                 <ul className="address">
                                     <li>
@@ -211,7 +192,7 @@ const Footer = () => {
                                             className="address-link"
                                             href="tel:+12354569874"
                                         >
-                                            +12354 569 874
+                                            0044 7448 782022
                                         </a>
                                     </li>
                                     <li>
@@ -219,7 +200,7 @@ const Footer = () => {
                                             className="address-link"
                                             href="tel:+98745612398"
                                         >
-                                            +98745 612 398
+                                            0044 7506 100310
                                         </a>
                                     </li>
                                     <li>
@@ -250,14 +231,14 @@ const Footer = () => {
                         <div className="col-12">
                             <div className="copyright-info text-center">
                                 <p>
-                                    Copyright &copy; 2021 Made with{" "}
+                                    Copyright &copy; 2023 Made with{" "}
                                     <i className="icofont-heart-alt"></i> By{" "}
                                     <a
                                         href="https://themeforest.net/user/codecarnival/portfolio"
                                         target="_blank"
                                         rel="noreferrer"
                                     >
-                                        codecarnival
+                                        Sas Technologies
                                     </a>
                                     , All Rights Reserved
                                 </p>
