@@ -200,7 +200,7 @@ const Footer = () => {
                                             className="address-link"
                                             href="tel:+98745612398"
                                         >
-                                            0044 7506 100310
+                                           000000000000
                                         </a>
                                     </li>
                                     <li>
