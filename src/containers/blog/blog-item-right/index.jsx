@@ -17,7 +17,7 @@ const BlogItemRightContainer = ({ data }) => {
                     <div className="col-xl-8 col-lg-8 mb-7">
                         <div className="row mb-n7 row-cols-1 row-cols-sm-2">
                             {data &&
-                                data.slice(3, 11).map((single, key) => {
+                                data.map((single, key) => {
                                     return (
                                         <div key={key} className="col mb-7">
                                             <BlogGrid
@@ -30,7 +30,7 @@ const BlogItemRightContainer = ({ data }) => {
                                 })}
                         </div>
                     </div>
-                    {/* <div className="col-xl-3 col-lg-4 mb-7  offset-xl-1">
+                    <div className="col-xl-3 col-lg-4 mb-7  offset-xl-1">
                         <div className="widget-wrapper widget-wrapper-nl">
                             <div className="sidebar-widget">
                                 <SidebarTitle title="Search" />
@@ -41,22 +41,22 @@ const BlogItemRightContainer = ({ data }) => {
                                 <SidebarTitle title="Categories" />
                                 <SidebarCategories data={BlogData} />
                             </div>
-                            <div className="sidebar-widget">
-                                <SidebarTitle title="popular post" />
+                            <div className="sidebar-widget">    
+                                <SidebarTitle title="popular projects" />
                                 <SidebarPost data={BlogData} />
                             </div>
 
-                            <div className="sidebar-widget">
+                            {/* <div className="sidebar-widget">
                                 <SidebarTitle title="Archive" />
                                 <SidebarArchive data={BlogData} />
-                            </div>
+                            </div> */}
 
-                            <div className="sidebar-widget">
+                            {/* <div className="sidebar-widget">
                                 <SidebarTitle title="Tags" />
                                 <SidebarTag data={BlogData} />
-                            </div>
+                            </div> */}
                         </div>
-                    </div> */}
+                    </div>
                 </div>
             </div>
         </div>

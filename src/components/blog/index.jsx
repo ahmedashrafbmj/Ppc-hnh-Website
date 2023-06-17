@@ -16,7 +16,6 @@ const BlogGrid = ({ data, classOption }) => {
             
                     <span className="blog-meta author">{data.author}</span>
                 <span className="separator">-</span>
-                    <span className="blog-meta date">{data.date}</span>
                 <h3 className="title">
                         {data.title}
                 </h3>

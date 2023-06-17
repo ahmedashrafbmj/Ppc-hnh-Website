@@ -225,17 +225,17 @@ const Footer = () => {
                                     <li>
                                         <a
                                             className="address-link"
-                                            href="mailto:info@example.com"
+                                            href="mailto:Info@hnhtechsolutions.com"
                                         >
-                                            info@example.com
+                                            Info@hnhtechsolutions.com
                                         </a>
                                     </li>
                                     <li>
                                         <a
                                             className="address-link"
-                                            href="mailto:info@example.com"
+                                            href="mailto:Info@hnhtechsolutions.com"
                                         >
-                                            www.example.com
+                                            sasstechnologies.com
                                         </a>
                                     </li>
                                 </ul>

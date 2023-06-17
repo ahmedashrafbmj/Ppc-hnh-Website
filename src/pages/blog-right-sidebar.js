@@ -17,9 +17,8 @@ const BlogRightSidebarPage = () => {
                 <div className="wrapper">
                     <Header />
                     <PageBanner
-                        title="Blog Post"
-                        excerpt="Pleasure rationally encounter consequences <br />
-                        are extremely painful great oppurtunity"
+                        title="AMAZING WORKS"
+                        excerpt="Creativity involves breaking out of expected & repeatable patterns in order to look at things in different way than ever before."
                         image="./images/blog/banner.png"
                     />
                     <BlogItemRightContainer data={BlogData} />

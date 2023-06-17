@@ -39,7 +39,7 @@ const MobileMenu = ({ show, onClose }) => {
                     <div className="offcanvas-header">
                         <Logo
                             classOption="offcanvas-logo d-inline-block"
-                            image={`${process.env.PUBLIC_URL}/images/logo/logo.png`}
+                            image={`${process.env.PUBLIC_URL}/images/logo/logo (2).png`}
                         />
                         <button
                             type="button"
@@ -49,136 +49,116 @@ const MobileMenu = ({ show, onClose }) => {
                     </div>
 
                     <nav id="offcanvasNav" className="offcanvas-menu">
-                        <ul>
-                            <li>
-                                <NavLink exact to="/">
-                                    Home
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink to={process.env.PUBLIC_URL + "/about"}>
-                                    About
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink
-                                    to={process.env.PUBLIC_URL + "/service"}
-                                >
-                                    Service
-                                </NavLink>
-                                <span
-                                    className="menu-expand"
-                                    onClick={onClickHandler}
-                                    aria-hidden="true"
-                                ></span>
-                                <ul>
-                                    <li>
-                                        <NavLink
-                                            to={
-                                                process.env.PUBLIC_URL +
-                                                "/service"
-                                            }
-                                        >
-                                            service
-                                        </NavLink>
-                                    </li>
-                                    <li>
-                                        <NavLink
-                                            to={
-                                                process.env.PUBLIC_URL +
-                                                "/service-details/1"
-                                            }
-                                        >
-                                            single service
-                                        </NavLink>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <NavLink to="/">Pages</NavLink>
-                                <span
-                                    className="menu-expand"
-                                    onClick={onClickHandler}
-                                    aria-hidden="true"
-                                ></span>
-                                <ul>
-                                    <li>
-                                        <NavLink
-                                            to={process.env.PUBLIC_URL + "/faq"}
-                                        >
-                                            faq
-                                        </NavLink>
-                                    </li>
-                                    <li>
-                                        <NavLink
-                                            to={
-                                                process.env.PUBLIC_URL + "/team"
-                                            }
-                                        >
-                                            team
-                                        </NavLink>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <NavLink to={process.env.PUBLIC_URL + "/blog"}>
-                                    Blog
-                                </NavLink>
-                                <span
-                                    className="menu-expand"
-                                    onClick={onClickHandler}
-                                    aria-hidden="true"
-                                ></span>
-                                <ul>
-                                    <li>
-                                        <NavLink
-                                            to={
-                                                process.env.PUBLIC_URL + "/blog"
-                                            }
-                                        >
-                                            blog
-                                        </NavLink>
-                                    </li>
-                                    <li>
-                                        <NavLink
-                                            to={
-                                                process.env.PUBLIC_URL +
-                                                "/blog-left-sidebar"
-                                            }
-                                        >
-                                            blog grid left sidebar
-                                        </NavLink>
-                                    </li>
-                                    <li>
-                                        <NavLink
-                                            to={
-                                                process.env.PUBLIC_URL +
-                                                "/blog-right-sidebar"
-                                            }
-                                        >
-                                            blog grid right sidebar
-                                        </NavLink>
-                                    </li>
-                                    <li>
-                                        <NavLink
-                                            to={
-                                                process.env.PUBLIC_URL +
-                                                "/blog-details/1"
-                                            }
-                                        >
-                                            blog details
-                                        </NavLink>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <NavLink
-                                    to={process.env.PUBLIC_URL + "/contact"}
-                                >
-                                    Contact
-                                </NavLink>
-                            </li>
-                        </ul>
+                    <ul>
+                <li>
+                    <NavLink exact to="/">
+                        Home
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to={process.env.PUBLIC_URL + "/about"}>
+                        About
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to={process.env.PUBLIC_URL + "/service"}>
+                        Services
+                    </NavLink>
+
+                    {/* <ul className="sub-menu">
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={process.env.PUBLIC_URL + "/service"}
+                            >
+                                Service
+                            </NavLink>
+                        </li>
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={
+                                    process.env.PUBLIC_URL +
+                                    "/service-details/1"
+                                }
+                            >
+                                single service
+                            </NavLink>
+                        </li>
+                    </ul> */}
+                </li>
+                <li>
+                    {/* <NavLink to="/">Packages</NavLink>
+                    <ul className="sub-menu">
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={process.env.PUBLIC_URL + "/faq"}
+                            >
+                                faq
+                            </NavLink>
+                        </li>
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={process.env.PUBLIC_URL + "/team"}
+                            >
+                                team
+                            </NavLink>
+                        </li>
+                    </ul> */}
+                </li>
+                <li>
+                    <NavLink to={process.env.PUBLIC_URL + "/blog-right-sidebar"}>
+                        Portfolio
+                    </NavLink>
+                    {/* <ul className="sub-menu">
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={process.env.PUBLIC_URL + "/blog-right-sidebar"}
+                            >
+                                Portfolio
+                            </NavLink>
+                        </li>
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={
+                                    process.env.PUBLIC_URL +
+                                    "/blog-left-sidebar"
+                                }
+                            >
+                                Portfolio grid left sidebar
+                            </NavLink>
+                        </li>
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={
+                                    process.env.PUBLIC_URL +
+                                    "/blog-right-sidebar"
+                                }
+                            >
+                                blog grid right sidebar
+                            </NavLink>
+                        </li>
+                        <li className="sub-menu-item">
+                            <NavLink
+                                className="sub-menu-link"
+                                to={process.env.PUBLIC_URL + "/blog-details/1"}
+                            >
+                                Portfolio details
+                            </NavLink>
+                        </li>
+                    </ul> */}
+                </li>
+                <li>
+                    <NavLink to={process.env.PUBLIC_URL + "/contact"}>
+                        Contact
+                    </NavLink>
+                </li>
+            </ul>
                     </nav>
                 </div>
             </div>

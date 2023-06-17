@@ -30,21 +30,27 @@ const SidebarCategories = ({ data }) => {
     return (
         <div className="widget-list">
             <ul className="list-group list-group-flush">
-                {categories.map((cat, i) => {
+            <li  className="list-group-item">
+                          
+                          Websites <span> - 300</span>
+                  </li>
+     
+            <li  className="list-group-item">
+                          
+                          Admin Panels <span> - 100</span>
+                  </li>
+            <li  className="list-group-item">
+                          
+                          Applications  <span> - 50</span>
+                  </li>
+                {/* {categories.map((cat, i) => {
                     return (
                         <li key={i} className="list-group-item">
-                            <Link
-                                className="d-flex justify-content-between align-items-center"
-                                to={
-                                    process.env.PUBLIC_URL +
-                                    `/category/${cat.slug}`
-                                }
-                            >
+                          
                                 {cat.title} <span>{cat.count}</span>
-                            </Link>
                         </li>
                     );
-                })}
+                })} */}
             </ul>
         </div>
     );
