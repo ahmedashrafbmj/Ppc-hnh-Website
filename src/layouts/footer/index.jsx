@@ -206,15 +206,15 @@ const Footer = () => {
                                     <li>
                                         <a
                                             className="address-link"
-                                            href="mailto:Info@hnhtechsolutions.com"
+                                            href="mailto:Info@sasstechnologies.com"
                                         >
-                                            Info@hnhtechsolutions.com
+                                            Info@sasstechnologies.com
                                         </a>
                                     </li>
                                     <li>
                                         <a
                                             className="address-link"
-                                            href="mailto:Info@hnhtechsolutions.com"
+                                            href="mailto:Info@sasstechnologies.com"
                                         >
                                             sasstechnologies.com
                                         </a>
@@ -246,6 +246,15 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            {/* <div className='text' style={{}}>
+				
+					   <BsWhatsapp style={{fontSize:'28px'}}/>	
+				
+					<span style={{fontSize:'18px'}}> <a  href={`https://wa.me/+447312675064?text=Referral%20link%20website%3A%20www.assignmenthelps.org`} target="_blank" rel="noopener noreferrer">+ 447312 675064</a></span>
+				 </div> */}
+            <div style={{position: "fixed",top: "88%",left:"5%"}}>
+                <a href="https://wa.me/447448782022?text=Referral%20link%20website%3A%20www.sasstechnologies.com"><img src="/images/whatsapp icon.png " style={{width:"50%"}} alt="" /></a>
             </div>
         </footer>
     );
