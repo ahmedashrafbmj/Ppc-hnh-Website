@@ -19,7 +19,7 @@ const IconBoxContainer = ({ classOption }) => {
                         <SectionTitle
                             classOption="title-section"
                             subTitle="FEATURES"
-                            title="Transforming <span class='text-primary'>Businesses</span> into Brands"
+                            title="Changing Companies into Brands"
                             excerptClassOption="mb-10"
                             excerpt="Build your brands with Amaze Logo! We are here to help businesses outperform with our professional yet affordable custom digital marketing solutions."
                         />
