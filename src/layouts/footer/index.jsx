@@ -254,7 +254,7 @@ const Footer = () => {
 					<span style={{fontSize:'18px'}}> <a  href={`https://wa.me/+447312675064?text=Referral%20link%20website%3A%20www.assignmenthelps.org`} target="_blank" rel="noopener noreferrer">+ 447312 675064</a></span>
 				 </div> */}
             <div style={{position: "fixed",top: "88%",left:"5%"}}>
-                <a href="https://wa.me/447448782022?text=Referral%20link%20website%3A%20www.sasstechnologies.com"><img src="/img/whatsapp icon.png " style={{width:"50%"}} alt="" /></a>
+                <a href="https://wa.me/447448782022?text=Referral%20link%20website%3A%20www.sasstechnologies.com"><img src="/images/whatsapp icon.png " style={{width:"50%"}} alt="" /></a>
             </div>
         </footer>
     );

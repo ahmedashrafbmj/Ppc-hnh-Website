@@ -19,13 +19,11 @@ const HomePage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Buznex – Business React JS Template" />
+                <SEO title="Sass Technologies" />
                 <div className="wrapper">
                     <Header />
                     <IntroContainer />
                     <BrandContainer />
-                    <a href="https://wa.me/447448782022?text=Referral%20link%20website%3A%20www.sasstechnologies.com"
-                    >Hello World</a>
                     <IconBoxContainer classOption="section-pb" />
                     {/* <HomeAboutContainer /> */}
                     <ServiceListContainer />
