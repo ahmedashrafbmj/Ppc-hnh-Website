@@ -12,19 +12,63 @@
         "brand": [
             {
                 "id": 1,
-                "image": "./images/brand-logo/1.png"
+                "image": "./images/brand-logo/1.jpg"
             },
             {
                 "id": 2,
-                "image": "./images/brand-logo/2.png"
+                "image": "./images/brand-logo/2.jpg"
             },
             {
                 "id": 3,
-                "image": "./images/brand-logo/3.png"
+                "image": "./images/brand-logo/3.jpg"
             },
             {
                 "id": 4,
-                "image": "./images/brand-logo/4.png"
+                "image": "./images/brand-logo/4.jpg"
+            },
+            {
+                "id": 5,
+                "image": "./images/brand-logo/5.jpg"
+            },
+            {
+                "id": 6,
+                "image": "./images/brand-logo/6.jpg"
+            },
+            {
+                "id": 7,
+                "image": "./images/brand-logo/7.jpg"
+            },
+            {
+                "id": 8,
+                "image": "./images/brand-logo/8.jpg"
+            },
+            {
+                "id": 9,
+                "image": "./images/brand-logo/9.jpg"
+            },
+            {
+                "id": 10,
+                "image": "./images/brand-logo/10.jpg"
+            },
+            {
+                "id": 11,
+                "image": "./images/brand-logo/11.jpg"
+            },
+            {
+                "id": 12,
+                "image": "./images/brand-logo/12.jpg"
+            },
+            {
+                "id": 13,
+                "image": "./images/brand-logo/13.jpg"
+            },
+            {
+                "id": 14,
+                "image": "./images/brand-logo/14.jpg"
+            },
+            {
+                "id": 15,
+                "image": "./images/brand-logo/15.jpg"
             }
         ]
     },
@@ -33,21 +77,77 @@
             {
                 "id": 1,
                 "className": "grid-item mb-7",
-                "icon": "./images/feature/logo/1.png",
+                "icon": "./images/feature/logo/1.jpg",
                 "title": "Team of Professionals",
                 "excerpt": "We have experts on staff who have a wealth of expertise and understanding to give the best results."
             },
             {
                 "id": 2,
                 "className": "grid-item card-mt-75 mb-7",
-                "icon": "./images/feature/logo/2.png",
+                "icon": "./images/feature/logo/2.jpg",
                 "title": "Quality Guaranteed",
                 "excerpt": "Because we are a customer-centric business, we place a high value on client pleasure, and providing superior quality is our main strategy."
             },
             {
                 "id": 1,
                 "className": "grid-item mb-7",
-                "icon": "./images/feature/logo/3.png",
+                "icon": "./images/feature/logo/3.jpg",
+                "title": "24/7 Customer Service",
+                "excerpt": "A kind and helpful customer support staff is always hand around-the-clock to assist you. Whatever you need to know, they can assist you quickly."
+            },
+            {
+                "id": 1,
+                "className": "grid-item mb-7",
+                "icon": "./images/feature/logo/4.jpg",
+                "title": "24/7 Customer Service",
+                "excerpt": "A kind and helpful customer support staff is always hand around-the-clock to assist you. Whatever you need to know, they can assist you quickly."
+            },
+            {
+                "id": 1,
+                "className": "grid-item mb-7",
+                "icon": "./images/feature/logo/5.jpg",
+                "title": "24/7 Customer Service",
+                "excerpt": "A kind and helpful customer support staff is always hand around-the-clock to assist you. Whatever you need to know, they can assist you quickly."
+            },
+            {
+                "id": 1,
+                "className": "grid-item mb-7",
+                "icon": "./images/feature/logo/6.jpg",
+                "title": "24/7 Customer Service",
+                "excerpt": "A kind and helpful customer support staff is always hand around-the-clock to assist you. Whatever you need to know, they can assist you quickly."
+            },
+            {
+                "id": 1,
+                "className": "grid-item mb-7",
+                "icon": "./images/feature/logo/7.jpg",
+                "title": "24/7 Customer Service",
+                "excerpt": "A kind and helpful customer support staff is always hand around-the-clock to assist you. Whatever you need to know, they can assist you quickly."
+            },
+            {
+                "id": 1,
+                "className": "grid-item mb-7",
+                "icon": "./images/feature/logo/8.jpg",
+                "title": "24/7 Customer Service",
+                "excerpt": "A kind and helpful customer support staff is always hand around-the-clock to assist you. Whatever you need to know, they can assist you quickly."
+            },
+            {
+                "id": 1,
+                "className": "grid-item mb-7",
+                "icon": "./images/feature/logo/9.jpg",
+                "title": "24/7 Customer Service",
+                "excerpt": "A kind and helpful customer support staff is always hand around-the-clock to assist you. Whatever you need to know, they can assist you quickly."
+            },
+            {
+                "id": 1,
+                "className": "grid-item mb-7",
+                "icon": "./images/feature/logo/10.jpg",
+                "title": "24/7 Customer Service",
+                "excerpt": "A kind and helpful customer support staff is always hand around-the-clock to assist you. Whatever you need to know, they can assist you quickly."
+            },
+            {
+                "id": 1,
+                "className": "grid-item mb-7",
+                "icon": "./images/feature/logo/11.jpg",
                 "title": "24/7 Customer Service",
                 "excerpt": "A kind and helpful customer support staff is always hand around-the-clock to assist you. Whatever you need to know, they can assist you quickly."
             }
