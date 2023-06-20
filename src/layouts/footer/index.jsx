@@ -183,7 +183,8 @@ const Footer = () => {
                             <div className="footer-widget">
                                 <h4 className="title">Contact info</h4>
                                 <p>
-                                1122 Bowie Dr, Lewisville, TX 75077 <br/>
+                                1172 Northwest highway Dallas tx 75220
+Us address <br/>
                                 122 Harold Rd, London E13 0SF, United Kingdom
                                 </p>
                                 <ul className="address">
@@ -200,7 +201,7 @@ const Footer = () => {
                                             className="address-link"
                                             href="tel:+98745612398"
                                         >
-                                           000000000000
+                                           001 909 351 3911
                                         </a>
                                     </li>
                                     <li>
