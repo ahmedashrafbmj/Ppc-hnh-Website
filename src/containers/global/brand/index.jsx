@@ -43,8 +43,9 @@ const BrandContainer = () => {
                 <div className="col-xl-6 col-lg-8 mx-auto">
                         <SectionTitle
                             classOption="title-section mb-10 pb-10 text-center"
-                            subTitle="Logo Designing"
-                            title="Logos <span class='text-primary'>Designed </span> by us"
+                            subTitle="Our Clients"
+                            title=" Our area of practice   <span class='text-primary'>is quite wide: </span> design, graphics, branding,
+                            development."
                             excerptClassOption="null"
                             excerpt="Pleasure rationally encounter consequences that are <br class='d-none d-xl-block' /> painful. Nor again is there anyone who pursues"
                         />
