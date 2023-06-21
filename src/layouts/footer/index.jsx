@@ -48,7 +48,7 @@ const Footer = () => {
                                     <li>
                                         <SocialIcon
                                             classOption="footer-social-link"
-                                            path="https://www.whatsapp.com/"
+                                            path="https://wa.me/447448782022?text=Referral%20link%20website%3A%20www.sasstechnologies.com"
                                             icon="icofont-whatsapp"
                                         />
                                     </li>

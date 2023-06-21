@@ -18,11 +18,11 @@ const BlogRightSidebarPage = () => {
                     <Header />
                     <PageBanner
                         title="AMAZING WORKS"
-                        excerpt="Creativity involves breaking out of expected & repeatable patterns in order to look at things in different way than ever before."
+                        excerpt="We shows only the best websites and portfolios built completely with passion, simplicity & creativity."
                         image="./images/blog/banner.png"
                     />
                     <BlogItemRightContainer data={BlogData} />
-                    <NewsletterArea />
+                    {/* <NewsletterArea /> */}
                     <Footer />
                     <ScrollToTop />
                 </div>
