@@ -27,24 +27,24 @@ const Footer = () => {
                                     <li>
                                         <SocialIcon
                                             classOption="footer-social-link"
-                                            path="https://www.facebook.com/"
+                                            path="https://www.facebook.com/profile.php?id=100066920298893"
                                             icon="icofont-facebook"
                                         />
                                     </li>
                                     <li>
                                         <SocialIcon
                                             classOption="footer-social-link"
-                                            path="https://www.instagram.com/"
-                                            icon="icofont-instagram"
+                                            path="https://www.linkedin.com/company/assignmenthelps/about/?viewAsMember=true"
+                                            icon="icofont-linkedin"
                                         />
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <SocialIcon
                                             classOption="footer-social-link"
                                             path="https://twitter.com/"
                                             icon="icofont-twitter"
                                         />
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <SocialIcon
                                             classOption="footer-social-link"
