@@ -191,7 +191,7 @@ Us address <br/>
                                     <li>
                                         <a
                                             className="address-link"
-                                            href="tel:+12354569874"
+                                            href="tel: 0044 7448 782022"
                                         >
                                             0044 7448 782022
                                         </a>
@@ -199,9 +199,25 @@ Us address <br/>
                                     <li>
                                         <a
                                             className="address-link"
-                                            href="tel:+98745612398"
+                                            href="tel: 001 909 351 3911"
                                         >
                                            001 909 351 3911
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            className="address-link"
+                                            href="tel:+49 1521 6652405"
+                                        >
+                                          +49 1521 6652405
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            className="address-link"
+                                            href="tel:001(281) 712-8941"
+                                        >
+                                          001(281) 712-8941
                                         </a>
                                     </li>
                                     <li>
