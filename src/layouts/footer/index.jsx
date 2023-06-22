@@ -188,12 +188,13 @@ Us address <br/>
                                 122 Harold Rd, London E13 0SF, United Kingdom
                                 </p>
                                 <ul className="address">
+                                    <h6>Available On Call and Whatsapp</h6>
                                     <li>
                                         <a
                                             className="address-link"
                                             href="tel: 0044 7448 782022"
                                         >
-                                            0044 7448 782022
+                                           UK +44-7448-782022
                                         </a>
                                     </li>
                                     <li>
@@ -201,7 +202,7 @@ Us address <br/>
                                             className="address-link"
                                             href="tel: 001 909 351 3911"
                                         >
-                                           001 909 351 3911
+                                          US +1-909-351-3911
                                         </a>
                                     </li>
                                     <li>
@@ -209,15 +210,16 @@ Us address <br/>
                                             className="address-link"
                                             href="tel:+49 1521 6652405"
                                         >
-                                          +49 1521 6652405
+                                         Europe +49 1521 6652405
                                         </a>
                                     </li>
+                                    <h6>Available On Call </h6>
                                     <li>
                                         <a
                                             className="address-link"
                                             href="tel:001(281) 712-8941"
                                         >
-                                          001(281) 712-8941
+                                         US +1281-712-8941
                                         </a>
                                     </li>
                                     <li>
@@ -233,7 +235,7 @@ Us address <br/>
                                             className="address-link"
                                             href="mailto:Info@sasstechnologies.com"
                                         >
-                                            sasstechnologies.com
+                                            www.sasstechnologies.com
                                         </a>
                                     </li>
                                 </ul>
