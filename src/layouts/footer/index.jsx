@@ -182,13 +182,26 @@ const Footer = () => {
                         <div className="col-lg-3 col-sm-6 mb-7">
                             <div className="footer-widget">
                                 <h4 className="title">Contact info</h4>
+                                
                                 <p>
-                                1172 Northwest highway Dallas tx 75220
-Us address <br/>
+                               
+                                        <SocialIcon
+                                            classOption="footer-social-link mx-3"
+                                            path="#"
+                                            icon="icofont icofont-home"
+                                        />
+                                    
+                                 1172 Northwest highway Dallas tx 75220
+<br/>
+<SocialIcon
+                                            classOption="footer-social-link mx-3"
+                                            path="#"
+                                            icon="icofont icofont-home"
+                                        />
                                 122 Harold Rd, London E13 0SF, United Kingdom
                                 </p>
                                 <ul className="address">
-                                    <h6>Available On Call and Whatsapp</h6>
+                                    <h6 className="mt-3 mb-2">Available On Call and Whatsapp</h6>
                                     <li>
                                         <a
                                             className="address-link"
@@ -213,7 +226,7 @@ Us address <br/>
                                          Europe +49 1521 6652405
                                         </a>
                                     </li>
-                                    <h6>Available On Call </h6>
+                                    <h6 className="mt-3">Available On Call </h6>
                                     <li>
                                         <a
                                             className="address-link"
@@ -227,7 +240,7 @@ Us address <br/>
                                             className="address-link"
                                             href="mailto:Info@sasstechnologies.com"
                                         >
-                                            Info@sasstechnologies.com
+                                           Email: Info@sasstechnologies.com
                                         </a>
                                     </li>
                                     <li>
@@ -235,7 +248,7 @@ Us address <br/>
                                             className="address-link"
                                             href="mailto:Info@sasstechnologies.com"
                                         >
-                                            www.sasstechnologies.com
+                                           Website: www.sasstechnologies.com
                                         </a>
                                     </li>
                                 </ul>
@@ -251,7 +264,7 @@ Us address <br/>
                             <div className="copyright-info text-center">
                                 <p>
                                     Copyright &copy; 2023 Made with{" "}
-                                    <i className="icofont-heart-alt"></i> By{" "}
+                                     By{" "}
                                     <a
                                         href="https://themeforest.net/user/codecarnival/portfolio"
                                         target="_blank"
