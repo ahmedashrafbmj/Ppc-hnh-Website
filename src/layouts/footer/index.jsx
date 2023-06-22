@@ -14,7 +14,7 @@ const Footer = () => {
                 />
                 <div className="container">
                     <div className="row mb-n7">
-                        <div className="col-lg-3 col-sm-6 mb-7">
+                        <div className="col-lg-2 col-sm-6 mx-5 mb-7">
                             <div className="footer-widget">
                                 <Logo
                                     classOption="footer-logo mb-9"
@@ -55,7 +55,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-sm-6 mb-7 offset-xl-1">
+                        <div className="col-lg-2 col-sm-6 mb-7 mx-5 offset-xl-1">
                             <div className="footer-widget">
                                 <h4 className="title">Quick Link</h4>
                                 <ul className="footer-menu">
@@ -179,26 +179,31 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div> */}
-                        <div className="col-lg-3 col-sm-6 mb-7">
+                        <div className="col-lg-6 col-sm-6 mb-7 mx-5">
                             <div className="footer-widget">
                                 <h4 className="title">Contact info</h4>
                                 
                                 <p>
                                
                                         <SocialIcon
-                                            classOption="footer-social-link mx-3"
+                                            classOption="footer-social-link "
                                             path="#"
-                                            icon="icofont icofont-home"
+                                            icon="icofont icofont-building"
                                         />
-                                    
+                                    <span className="mx-3">
+
                                  1172 Northwest highway Dallas tx 75220
+                                    </span>
 <br/>
 <SocialIcon
-                                            classOption="footer-social-link mx-3"
+                                            classOption="footer-social-link "
                                             path="#"
-                                            icon="icofont icofont-home"
+                                            icon="icofont icofont-building"
                                         />
+                                        <span className="mx-3">
+
                                 122 Harold Rd, London E13 0SF, United Kingdom
+                                        </span>
                                 </p>
                                 <ul className="address">
                                     <h6 className="mt-3 mb-2">Available On Call and Whatsapp</h6>
