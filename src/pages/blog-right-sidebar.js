@@ -13,7 +13,7 @@ const BlogRightSidebarPage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Sass Technologies – Blog Right Sidebar" />
+                <SEO title="creativewebssolution – Blog Right Sidebar" />
                 <div className="wrapper">
                     <Header />
                     <PageBanner

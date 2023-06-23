@@ -26,7 +26,7 @@ const BlogTag = ({
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Sass Technologies – Blog Tag" />
+                <SEO title="creativewebssolution – Blog Tag" />
                 <div className="wrapper">
                     <Header />
                     <PageBanner

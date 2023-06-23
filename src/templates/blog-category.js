@@ -26,7 +26,7 @@ const BlogCategory = ({
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Sass Technologies – Blog Categories" />
+                <SEO title="creativewebssolution – Blog Categories" />
                 <div className="wrapper">
                     <Header />
                     <PageBanner

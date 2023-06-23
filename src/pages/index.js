@@ -19,7 +19,7 @@ const HomePage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Sass Technologies" />
+                <SEO title="creativewebssolution" />
                 <div className="wrapper">
                     <Header />
                     <IntroContainer />

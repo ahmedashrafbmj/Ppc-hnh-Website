@@ -12,7 +12,7 @@ const FaqPage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Sass Technologies – Faq" />
+                <SEO title="creativewebssolution – Faq" />
                 <div className="wrapper">
                     <Header />
                     <PageBanner

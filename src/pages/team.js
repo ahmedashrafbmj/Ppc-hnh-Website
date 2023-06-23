@@ -12,7 +12,7 @@ const TeamPage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Sass Technologies – Team" />
+                <SEO title="creativewebssolution – Team" />
                 <div className="wrapper">
                     <Header />
                     <PageBanner
