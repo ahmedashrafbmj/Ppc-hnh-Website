@@ -18,7 +18,7 @@ const Footer = () => {
                             <div className="footer-widget">
                                 <Logo
                                     classOption="footer-logo mb-9"
-                                    image={`${process.env.PUBLIC_URL}/images/logo/logo-footer.png`}
+                                    image={`${process.env.PUBLIC_URL}/images/logo/logo-footer2.png`}
                                 />
                                 <p>
                                 We work with a passion of taking challenges and creating new ones in advertising sector.
