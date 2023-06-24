@@ -7,28 +7,28 @@ const SidebarPost = ({ data }) => {
             {data.slice(0, 3).map((single, i) => {
                 return (
                     <div key={i} className="widget-post-list">
-                        <Link
+                        {/* <Link
                             to={
                                 process.env.PUBLIC_URL +
                                 `/blog-details/${single.id}`
                             }
                             className="post-thumb"
-                        >
+                        > */}
                             <img
                                 src={`${process.env.PUBLIC_URL}/${single.media.rcImage}`}
                                 alt="img"
                             />
-                        </Link>
+                        {/* </Link> */}
                         <div className="widget-post-content">
                             <h3 className="widget-sub-title">
-                                <Link
+                                {/* <Link
                                     to={
                                         process.env.PUBLIC_URL +
                                         `/blog-details/${single.id}`
                                     }
-                                >
+                                > */}
                                     {single.title}
-                                </Link>
+                                {/* </Link> */}
                             </h3>
                             <p className="post-meta">{single.date}</p>
                         </div>

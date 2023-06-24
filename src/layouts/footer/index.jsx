@@ -245,7 +245,7 @@ const Footer = () => {
                                             className="address-link"
                                             href="mailto:Info@sasstechnologies.com"
                                         >
-                                           Email: Info@sasstechnologies.com
+                                           Email: Info@creativewebssolutions.com
                                         </a>
                                     </li>
                                     <li>
@@ -253,7 +253,7 @@ const Footer = () => {
                                             className="address-link"
                                             href="mailto:Info@sasstechnologies.com"
                                         >
-                                           Website: www.sasstechnologies.com
+                                           Website: www.creativewebssolutions.com
                                         </a>
                                     </li>
                                 </ul>
@@ -275,7 +275,7 @@ const Footer = () => {
                                         target="_blank"
                                         rel="noreferrer"
                                     >
-                                        Sas Technologies
+                                        Creative Webs Solutions
                                     </a>
                                     , All Rights Reserved
                                 </p>
